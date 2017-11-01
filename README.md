@@ -3,8 +3,7 @@
 Vewy derpy apple, but beware for it's evil clone. Bewaaareeeeee... -PrincessMononoke
 
 TO DO'S: 
-1) do html file - mary
-2) do css file - mary
-3) code javascript - hopefully everyone
-4) create images
-5) done
+1) Do HTML File - Mary
+2) Do CSS File - Mary
+3) Code JavaScript - Hopefully Everyone
+4) Create Images
