@@ -12,8 +12,10 @@ body {
 }
 
 #paper {
-    width: 840px;
-    height: 560px;
+	width: 840px;
+	height: 560px;
+    
+	max-width: 100%;
     
 	background-color: #000;
 	border: 1px solid #fff;
