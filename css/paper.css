@@ -13,13 +13,13 @@ h1 {
 }
 
 h2 {
-    font-family: ;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: ;
     color: #;
 }
 
 h3 {
-    font-family: ;
+    font-family: 'Raleway', sans-serif;
     font-size: ;
     color: #;
 }
@@ -29,7 +29,7 @@ h3 {
 }
 
 .potato {
-    color: #;
+    color: #e2bf93;
 }
 
 .center {
@@ -42,7 +42,7 @@ h3 {
 }
 
 .emi {
-    color: #;
+    color: #7fe7ff;
 }
 
 .mary {
@@ -50,11 +50,11 @@ h3 {
 }
 
 .nasheeb {
-    color: #;
+    color: #2530f9;
 }
 
 .nicholas {
-    color: #;
+    color: #adbfff;
 }
 
 #paper {
