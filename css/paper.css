@@ -1,0 +1,48 @@
+body {
+	display: flex;
+	background: #000;
+    
+	width: 100vw;
+	height: 100vh;
+}
+
+h1 {
+    font-family: ;
+    font-size: ;
+    color: #;
+}
+
+h2 {
+    font-family: ;
+    font-size: ;
+    color: #;
+}
+
+h3 {
+    font-family: ;
+    font-size: ;
+    color: #;
+}
+
+.apple {
+    color: #c11313;
+}
+
+.potato {
+    color: #;
+}
+
+.container {
+	margin: auto;
+	padding: 20px;
+}
+
+#paper {
+    width: 840px;
+    height: 560px;
+    
+    max-width: 100%;
+    
+	background: #000;
+	border: 1px solid #fff;
+}
