@@ -15,7 +15,7 @@ h1 {
 h2 {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: ;
-    color: #;
+    color: #ffffff;
 }
 
 h3 {
@@ -42,18 +42,22 @@ h3 {
 }
 
 .emi {
+    font-family: 'Raleway', sans-serif;
     color: #7fe7ff;
 }
 
 .mary {
+    font-family: 'Raleway', sans-serif;
     color: #;
 }
 
 .nasheeb {
+    font-family: 'Raleway', sans-serif;
     color: #2530f9;
 }
 
 .nicholas {
+    font-family: 'Raleway', sans-serif;
     color: #adbfff;
 }
 
