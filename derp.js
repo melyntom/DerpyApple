@@ -13,7 +13,7 @@ var Player = function (x, y, image, size, score) {
 };
 
 // Create a new player, Derpy Apple
-var derp = new Player(0, 0, 10, 10, 10);
+var derp = new Player(10, 10, 10, 10, 10);
 console.log(derp);
 
 // Create a new player, Happy Potato
