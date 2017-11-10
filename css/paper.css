@@ -8,19 +8,16 @@ body {
 
 h1 {
     font-family: "Fredericka the Great", cursive;
-    font-size: ;
-    color: #ffffff;
+    color: #b2532d;
 }
 
 h2 {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: ;
     color: #ffffff;
 }
 
 h3 {
     font-family: 'Raleway', sans-serif;
-    font-size: ;
     color: #ffffff;
 }
 
@@ -62,9 +59,6 @@ h3 {
 }
 
 #paper {
-    width: 840px;
-    height: 560px;
-    
     max-width: 100%;
     
 	background: #000;
