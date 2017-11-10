@@ -7,11 +7,22 @@ Vewy derpy apple, but beware for it's evil clone. Bewaaareeeeee... -PrincessMono
 ### Set up:
 * ~~Give an Actual Name to the Game~~
 * ~~Do HTML File - Mary~~
-* Do CSS File - Mary
+* ~~Do CSS File - Mary~~
 * ~~CSS Text Colors~~
 
 ### Code JavaScript - Everyone
-* Keyboard Controls - Nicholas
+
+#### Mary
+* Objects
+
+#### Emi
+* Get Images
+
+#### Nasheeb
+* Collision
+
+#### Nicholas
+* Keyboard Controls
 
 ### Extras:
 * Create Images - Emi
