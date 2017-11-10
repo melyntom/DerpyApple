@@ -23,7 +23,7 @@ Vewy derpy apple, but beware for it's evil clone. Bewaaareeeeee... -PrincessMono
 * Loops
 
 #### Nasheeb
-* Collision
+* Collision Detection
 
 #### Nicholas
 * Keyboard Controls
