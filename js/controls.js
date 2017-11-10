@@ -5,7 +5,7 @@ var context = canvas.getContext('2d');
 var x = 0;
 var y = 0;
 
-context.rect(x, y, 100, 100);
+context.rect(x, y, //change to however the box is 100, 100);
 context.stroke();
 
 function move(e){
