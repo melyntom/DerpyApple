@@ -1,17 +1,5 @@
 // Object creation
 
-"use strict";
-
-// Get the canvas element from the document
-var canvas = document.getElementById("paper");
-
-// Set canvas size
-canvas.width = 840;
-canvas.height = 560;
-
-// ctx
-var ctx = canvas.getContext("2d");
-
 // Function for creating a new player
 var Player = function (x, y, image, color, size, score) {
     this.x = x;
