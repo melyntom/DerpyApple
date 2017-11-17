@@ -16,7 +16,7 @@ Vewy derpy apple, but beware for it's evil clone. Bewaaareeeeee... -PrincessMono
 ### Code JavaScript - Everyone
 
 #### Mary
-* Objects
+* ~~Objects~~
 * Get Files Working Together
 * Starting Screen
 
