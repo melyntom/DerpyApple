@@ -27,7 +27,8 @@ Vewy derpy apple, but beware for it's evil clone. Bewaaareeeeee... -PrincessMono
 * Collision Detection
 
 #### Nicholas
-* Keyboard Controls
+* ~~Keyboard Controls~~
+* Figure Out How to Make Our Blocks Turn
 
 
 ### Extras:
