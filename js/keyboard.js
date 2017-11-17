@@ -1,8 +1,4 @@
 // Keyboard Input for Game
-/*
-//divides canvas by 10
-var gridSize = 10;
-
 // game speed in a set interval
 var gameSpeed = 100;
 let interval;
@@ -72,25 +68,10 @@ var derp = {
 //initizilation function to redraw canvas
 function init() {
   derp.init(canvas.width, canvas.height, gridSize);
-  
-    document.addEventListener("keydown", function(e) {
-      if (e.keyCode == 37) {
-        derp.changeDir("l");
-      }
-      else if (e.keyCode == 38) {
-        derp.changeDir("u");
-      }
-      else if (e.keyCode == 39) {
-        derp.changeDir("r");
-      }
-      else if (e.keyCode == 40) {
-        derp.changeDir("d");
-      }
   });
   
   //interval for gamespeed
     clearInterval(interval);
     interval = setInterval(update, gameSpeed);
-  }
 init();
 */
