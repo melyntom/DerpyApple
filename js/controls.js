@@ -13,28 +13,36 @@ var keyboard = {
 
  document.addEventListener("keydown", function(e) {
       if (e.keyCode == 65) {
-          keyboard.a = true;
+          keyboard.a = true,
+            apple.changeDir = "l";
       }
       else if (e.keyCode == 87) {
-          keyboard.w = true;
+          keyboard.w = true,
+        apple.changeDir = "u";
       }
       else if (e.keyCode == 68) {
-          keyboard.d = true;
+          keyboard.d = true,
+            apple.changeDir = "r";
       }
       else if (e.keyCode == 83) {
-          keyboard.s = true;
+          keyboard.s = true,
+            apple.changeDir = "d";
       }
       else if (e.keyCode == 37) {
-          keyboard.l = true;
+          keyboard.l = true,
+            derp.changeDir = "l";
       }
       else if (e.keyCode == 38) {
-          keyboard.u = true;
+          keyboard.u = true,
+            derp.changeDir = "u";
       }
       else if (e.keyCode == 39) {
-          keyboard.r = true;
+          keyboard.r = true,
+            derp.changeDir = "r";
       }
       else if (e.keyCode == 40) {
-          keyboard.downArrow = true;
+          keyboard.downArrow = true,
+            derp.changeDir = "d";
       }
   });
 
