@@ -13,37 +13,54 @@ var keyboard = {
 
  document.addEventListener("keydown", function(e) {
       if (e.keyCode == 65) {
-        apple.changeDir("l"),
           keyboard.a = true;
       }
       else if (e.keyCode == 87) {
-        apple.changeDir("u"),
           keyboard.w = true;
       }
       else if (e.keyCode == 68) {
-        apple.changeDir("r"),
           keyboard.d = true;
       }
       else if (e.keyCode == 83) {
-        apple.changeDir("d"),
           keyboard.s = true;
       }
-  });
-    document.addEventListener("keydown", function(e) {
-      if (e.keyCode == 37) {
-        derp.changeDir("l"),
+      else if (e.keyCode == 37) {
           keyboard.l = true;
       }
       else if (e.keyCode == 38) {
-        derp.changeDir("u"),
           keyboard.u = true;
       }
       else if (e.keyCode == 39) {
-        derp.changeDir("r"),
           keyboard.r = true;
       }
       else if (e.keyCode == 40) {
-        derp.changeDir("d"),
           keyboard.downArrow = true;
+      }
+  });
+
+ document.addEventListener("keyup", function(e) {
+      if (e.keyCode == 65) {
+          keyboard.a = false;
+      }
+      else if (e.keyCode == 87) {
+          keyboard.w = false;
+      }
+      else if (e.keyCode == 68) {
+          keyboard.d = false;
+      }
+      else if (e.keyCode == 83) {
+          keyboard.s = false;
+      }
+      else if (e.keyCode == 37) {
+          keyboard.l = false;
+      }
+      else if (e.keyCode == 38) {
+          keyboard.u = false;
+      }
+      else if (e.keyCode == 39) {
+          keyboard.r = false;
+      }
+      else if (e.keyCode == 40) {
+          keyboard.downArrow = false;
       }
   });
