@@ -17,6 +17,7 @@ Vewy derpy apple, but beware for it's evil clone. Bewaaareeeeee... -PrincessMono
 
 #### Mary
 * Objects
+* Get Files Working Together
 
 #### Emi
 * Get Images Onscreen
