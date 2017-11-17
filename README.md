@@ -19,9 +19,8 @@ Vewy derpy apple, but beware for it's evil clone. Bewaaareeeeee... -PrincessMono
 * Objects
 
 #### Emi
-* Get Images
+* Get Images Onscreen
 * Starting Screen
-* Movement Loops
 
 #### Nasheeb
 * Collision Detection
@@ -31,4 +30,4 @@ Vewy derpy apple, but beware for it's evil clone. Bewaaareeeeee... -PrincessMono
 
 
 ### Extras:
-* Create Images - Emi
+* Create Images
