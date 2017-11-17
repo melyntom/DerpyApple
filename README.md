@@ -18,11 +18,11 @@ Vewy derpy apple, but beware for it's evil clone. Bewaaareeeeee... -PrincessMono
 #### Mary
 * ~~Objects~~
 * Get Files Working Together
-* Starting Screen
+* Get Images Onscreen
 
 #### Emi
-* Get Images Onscreen
 * Starting Screen
+* Image Planning
 
 #### Nasheeb
 * Collision Detection
