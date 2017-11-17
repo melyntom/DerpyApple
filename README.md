@@ -10,7 +10,7 @@ Vewy derpy apple, but beware for it's evil clone. Bewaaareeeeee... -PrincessMono
 * ~~Give an Actual Name to the Game~~
 * ~~Do HTML File - Mary~~
 * ~~Do CSS File - Mary~~
-* ~~CSS Text Colors~~
+* ~~CSS Text Colors - Nicholas~~
 
 
 ### Code JavaScript - Everyone
