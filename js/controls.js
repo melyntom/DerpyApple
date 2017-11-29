@@ -8,7 +8,7 @@ var keyboard = {
   w: false,
   a: false,
   s: false,
-  down: false
+  d: false
 };
 
  document.addEventListener("keydown", function(e) {
