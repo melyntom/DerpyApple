@@ -29,6 +29,12 @@ h3 {
     color: #e2bf93;
 }
 
+.block {
+    display: block;
+    margin: auto;
+    padding-right: 30px;
+}
+
 .center {
     text-align: center;
 }
@@ -41,6 +47,10 @@ h3 {
 .emi {
     font-family: 'Raleway', sans-serif;
     color: #7fe7ff;
+}
+
+.flex {
+    display: flex;
 }
 
 .mary {
