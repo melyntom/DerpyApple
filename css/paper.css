@@ -4,6 +4,7 @@ body {
     
 	width: 100vw;
 	height: 100vh;
+    margin: 0;
 }
 
 h1 {
@@ -66,11 +67,6 @@ h3 {
 .nicholas {
     font-family: 'Raleway', sans-serif;
     color: #adbfff;
-}
-
-.points {
-    display: block;
-    color: blueviolet;
 }
 
 #paper {
