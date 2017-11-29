@@ -32,15 +32,27 @@ var derp = {
     if (dir == "u") {
       this.dir = dir;
     }  
-    if (dir == "d") {
+    else if (dir == "downArrow") {
       this.dir = dir;
     } 
-    if (dir == "r") {
+    else if (dir == "r") {
       this.dir = dir;
     } 
-    if (dir == "l") {
+    else if (dir == "l") {
       this.dir = dir;
     } 
+    else if (dir == "w") {
+      this.dir = dir;
+    }
+    else if (dir == "a") {
+      this.dir = dir;
+    }
+    else if (dir == "s") {
+      this.dir = dir;
+    }
+    else if (dir == "d) {
+      this.dir = dir;
+    }
 },  
  
   //move function the apple where the apple is pointing towards
@@ -50,15 +62,27 @@ var derp = {
   y: this.body[0].y
 };
     if (this.dir == "u") { // 0 is the head
-      this.body[0].y -= this.size;
-    }
-    else if (this.dir == "d") {
       this.body[0].y += this.size;
+    }
+    else if (this.dir == "downArrow") {
+      this.body[0].y -= this.size;
     }
     else if (this.dir == "l") {
       this.body[0].x -= this.size;
     }
     else if (this.dir == "r") {
+      this.body [0].x += this.size;
+    }
+    else if (this.dir == "w") {
+      this.body[0].y += this.size;
+    }
+    else if (this.dir == "a") {
+      this.body[0].x -= this.size;
+    }
+    else if (this.dir == "s") {
+      this.body[0].y -= this.size;
+    }
+    else if (this.dir == "d") {
       this.body [0].x += this.size;
     }
     this.body.splice(1, 0, head);
