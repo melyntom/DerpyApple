@@ -19,9 +19,10 @@ Vewy derpy apple, but beware for it's evil clone. Bewaaareeeeee... -PrincessMono
 * ~~Objects~~
 * Get Files Working Together
 * Get Images Onscreen
+* Code the Starting Screen
 
 #### Emi
-* Starting Screen
+* Design the Starting Screen
 * Image Planning
 
 #### Nasheeb
