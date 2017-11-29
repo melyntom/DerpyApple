@@ -25,12 +25,14 @@ Player.prototype.draw = function (ctx) {
     ctx.fillRect(this.x, this.y, this.size, this.size);
 };
 
+
+
 Player.prototype.move = function () {
-    if (this.dir == "u") { // 0 is the head
-      this.y++;
+    if (this.dir == "u") {
+      this.y--;
     }
     else if (this.dir == "d") {
-      this.y--;
+      this.y++;
     }
     else if (this.dir == "l") {
      this.x--;
@@ -38,4 +40,8 @@ Player.prototype.move = function () {
     else if (this.dir == "r") {
      this.x++;
     }
+};
+
+Player.prototype.changeDir = function (dir) {
+    this.dir = dir;
 };
