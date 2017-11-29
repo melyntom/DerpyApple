@@ -68,6 +68,11 @@ h3 {
     color: #adbfff;
 }
 
+.points {
+    display: block;
+    color: blueviolet;
+}
+
 #paper {
     max-width: 100%;
     
