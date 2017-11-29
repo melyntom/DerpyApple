@@ -1,5 +1,6 @@
 // Keyboard Input for Game
 
+
 var keyboard = {
   u: false,
   downArrow: false,
@@ -13,36 +14,36 @@ var keyboard = {
 
  document.addEventListener("keydown", function(e) {
       if (e.keyCode == 65) {
-          keyboard.a = true,
-            apple.changeDir("l");
+          keyboard.a = true;
+
       }
       else if (e.keyCode == 87) {
-          keyboard.w = true,
-        apple.changeDir("u");
+          keyboard.w = true;
+          console.log('Keycode 87 pressed')
       }
       else if (e.keyCode == 68) {
-          keyboard.d = true,
-            apple.changeDir("r");
+          keyboard.d = true;
+
       }
       else if (e.keyCode == 83) {
-          keyboard.s = true,
-            apple.changeDir("d");
+          keyboard.s = true;
+
       }
       else if (e.keyCode == 37) {
-          keyboard.l = true,
-            derp.changeDir = "l";
+          keyboard.l = true;
+
       }
       else if (e.keyCode == 38) {
-          keyboard.u = true,
-            derp.changeDir("u");
+          keyboard.u = true;
+
       }
       else if (e.keyCode == 39) {
-          keyboard.r = true,
-            derp.changeDir("r");
+          keyboard.r = true;
+
       }
       else if (e.keyCode == 40) {
-          keyboard.downArrow = true,
-            derp.changeDir("d");
+          keyboard.downArrow = true;
+
       }
   });
 
@@ -72,3 +73,6 @@ var keyboard = {
           keyboard.downArrow = false;
       }
   });
+
+
+
