@@ -23,7 +23,7 @@ Vewy derpy apple, but beware for it's evil clone. Bewaaareeeeee... -PrincessMono
 
 #### Emi
 * Design the Starting Screen
-* Image Planning
+* Create Images
 
 #### Nasheeb
 * Collision Detection
@@ -34,7 +34,6 @@ Vewy derpy apple, but beware for it's evil clone. Bewaaareeeeee... -PrincessMono
 
 
 ### Extras:
-* Create Images
 * Score
 
 Important Note: Our canvas is 840px in width and 560px in height.
