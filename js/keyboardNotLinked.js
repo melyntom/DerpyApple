@@ -50,7 +50,7 @@ var derp = {
     else if (dir == "s") {
       this.dir = dir;
     }
-    else if (dir == "d) {
+    else if (dir == "d") {
       this.dir = dir;
     }
 },  
