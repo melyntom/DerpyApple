@@ -13,7 +13,11 @@ canvas.height = 560;
 var ctx = canvas.getContext("2d");
 
 var running = false;
-/*
-if (running) {
+
+function startScreen() {
     
-} */
+}
+
+if (!running) {
+    startScreen();
+}
