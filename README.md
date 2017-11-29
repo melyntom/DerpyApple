@@ -20,6 +20,7 @@ Vewy derpy apple, but beware for it's evil clone. Bewaaareeeeee... -PrincessMono
 * Get Files Working Together
 * Get Images Onscreen
 * Code the Starting Screen
+* 
 
 #### Emi
 * Design the Starting Screen
@@ -30,7 +31,9 @@ Vewy derpy apple, but beware for it's evil clone. Bewaaareeeeee... -PrincessMono
 
 #### Nicholas
 * ~~Keyboard Controls~~
-* Figure Out How to Make Our Blocks Turn
+* ~~Figure Out How to Make Our Blocks Turn~~
+* Stop Players from Being Able to Go Back
+
 
 
 ### Extras:
