@@ -32,7 +32,7 @@ Vewy derpy apple, but beware for it's evil clone. Bewaaareeeeee... -PrincessMono
 #### Nicholas
 * ~~Keyboard Controls~~
 * ~~Figure Out How to Make Our Blocks Turn~~
-* Stop Players from Being Able to Go Back
+* ~Stop Players from Being Able to Go Back~
 
 
 
