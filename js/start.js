@@ -15,9 +15,22 @@ var ctx = canvas.getContext("2d");
 var running = false;
 
 function startScreen() {
-    
+	const img = new Image();
+	img.src = "../images/startScreen.png";
+
+	ctx.drawImage(img, canvas.width / 2 - 80, canvas.height / 2 - 80);
+	
+	console.log(running);
+}
+
+function start() {
+	canvas.addEventListener("mousedown", function (e) {
+    	running = true;
+    	console.log(running);
+	});
 }
 
 if (!running) {
     startScreen();
+    start();
 }
