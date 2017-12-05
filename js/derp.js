@@ -12,11 +12,11 @@ var Player = function (x, y, image, color, size, score, dir) {
 };
 
 // Create new player, Derpy Apple
-var derp = new Player(0, 275, null, "#c11313", 10, 10, "r");
+var derp = new Player(15, 275, null, "#c11313", 10, 10, "r");
 console.log(derp);
 
 // Create new player, Happy Potato
-var potato = new Player(835, 275, null, "#e2bf93", 10, 10, "l");
+var potato = new Player(815, 275, null, "#e2bf93", 10, 10, "l");
 console.log(potato);
 
 // Draw players
