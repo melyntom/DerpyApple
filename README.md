@@ -8,6 +8,7 @@ Vewy derpy apple, but beware for it's evil clone. Bewaaareeeeee... -PrincessMono
 ### Last Day Priorities:
 * Collision
 * Make the Player Blocks Images
+* Slides
 * Finish Start Screen
 * Player Control Blocking
 * Score
