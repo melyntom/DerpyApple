@@ -35,13 +35,13 @@ function update() {
     derp.move();
     potato.move();
     
-    //console.log(derp.isAlive(canvas, potato));    
+    //console.log(derp.isAlive(canvas, potato));
     const derpIsAlive = derp.isAlive(canvas, potato);
     const potatoIsAlive = potato.isAlive(canvas, derp);
     
     if (derpIsAlive && !potatoIsAlive){
         derpScore++;
-        init();  
+        init();
     }
     else if (potatoIsAlive && !derpIsAlive){
         potatoScore++;
