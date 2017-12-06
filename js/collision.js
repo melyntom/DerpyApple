@@ -5,20 +5,18 @@ OKAY|
 WOT
 OK
 YEA*/
-
+/*
 Player.prototype.collidesWith = function(Player) 
 {
  for (let i = 0; i < 3; i++) {
           if (this.body[0].x === Player.body[i].x
-            &&
-            if (this.body[0].y === Player.body[i].y)  
+            && this.body[0].y === Player.body[i].y)  
               {
                   return true;   
       }
   }
 return false;
 };
-
 
 Player.prototype.selfCollides=function() 
 {
@@ -44,10 +42,10 @@ Player.prototype.inCanvas = function (canvas) {
 Player.prototype.live = function() {
     if (this.collidesWith(Player) &&
        this.inCanvas(canvas) &&
-        this.selfCollides();
-       )
+        this.selfCollides())
         {
         return update();
         }
     
 };
+*/
