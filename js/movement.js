@@ -46,5 +46,7 @@ function update() {
     else if (potatoIsAlive && !derpIsAlive){
         console.log("potato wins")
         init();
+    }else if (!potatoIsAlive && !derpIsAlive)  { // both died at same time
+        init();
     }
 }
