@@ -14,7 +14,7 @@ var ctx = canvas.getContext("2d");
 
 var running = false;
 
-function startScreen() {
+/* function startScreen() {
 	const img = new Image();
 	img.src = "../images/startScreen.png";
 
@@ -34,3 +34,4 @@ if (!running) {
     startScreen();
     start();
 }
+*/
