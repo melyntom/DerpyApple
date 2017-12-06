@@ -28,14 +28,23 @@ var updateAllDir = function () {
 }
 
 function update() {
-    // ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
     derp.draw (ctx);
     potato.draw (ctx);
     updateAllDir();
     derp.move();
     potato.move();
     
-    requestAnimationFrame(update);
+    //console.log(derp.isAlive(canvas, potato));    
+    const derpIsAlive = derp.isAlive(canvas, potato);
+    const potatoIsAlive = potato.isAlive(canvas, derp);
+    
+    if (derpIsAlive && !potatoIsAlive){
+        console.log("derp wins")
+        init();  
+    }
+    else if (potatoIsAlive && !derpIsAlive){
+        console.log("potato wins")
+        init();
+    }
 }
-
-update();
