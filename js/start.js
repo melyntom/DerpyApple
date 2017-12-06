@@ -6,8 +6,8 @@
 var canvas = document.getElementById("paper");
 
 // Set canvas size
-canvas.width = 840;
-canvas.height = 560;
+canvas.width = 800;
+canvas.height = 600;
 
 // ctx
 var ctx = canvas.getContext("2d");
