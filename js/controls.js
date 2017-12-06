@@ -13,35 +13,35 @@ var keyboard = {
 };
 
  document.addEventListener("keydown", function(e) {
-      if (e.keyCode == 65) {
+      if (e.keyCode === 65) {
           keyboard.a = true;
 
       }
-      else if (e.keyCode == 87) {
+      else if (e.keyCode === 87) {
           keyboard.w = true;
-          console.log('Keycode 87 pressed')
+          // console.log('Keycode 87 pressed')
       }
-      else if (e.keyCode == 68) {
+      else if (e.keyCode === 68) {
           keyboard.d = true;
 
       }
-      else if (e.keyCode == 83) {
+      else if (e.keyCode === 83) {
           keyboard.s = true;
 
       }
-      else if (e.keyCode == 37) {
+      else if (e.keyCode === 37) {
           keyboard.l = true;
 
       }
-      else if (e.keyCode == 38) {
+      else if (e.keyCode === 38) {
           keyboard.u = true;
 
       }
-      else if (e.keyCode == 39) {
+      else if (e.keyCode === 39) {
           keyboard.r = true;
 
       }
-      else if (e.keyCode == 40) {
+      else if (e.keyCode === 40) {
           keyboard.downArrow = true;
 
       }
@@ -51,25 +51,25 @@ var keyboard = {
       if (e.keyCode == 65) {
           keyboard.a = false;
       }
-      else if (e.keyCode == 87) {
+      else if (e.keyCode === 87) {
           keyboard.w = false;
       }
-      else if (e.keyCode == 68) {
+      else if (e.keyCode === 68) {
           keyboard.d = false;
       }
-      else if (e.keyCode == 83) {
+      else if (e.keyCode === 83) {
           keyboard.s = false;
       }
-      else if (e.keyCode == 37) {
+      else if (e.keyCode === 37) {
           keyboard.l = false;
       }
-      else if (e.keyCode == 38) {
+      else if (e.keyCode === 38) {
           keyboard.u = false;
       }
-      else if (e.keyCode == 39) {
+      else if (e.keyCode === 39) {
           keyboard.r = false;
       }
-      else if (e.keyCode == 40) {
+      else if (e.keyCode === 40) {
           keyboard.downArrow = false;
       }
   });
