@@ -37,12 +37,17 @@
                     <em>a Mission Bit Semester Project by</em>
                 </h3>
                 <h2 class="center">
-                    <span class="emi">Emi Arriola</span>, 
-                    <br><span class="mary">Mary Lynn Tom</span>, 
-                    <br><span class="nasheeb">Nasheeb Adhikari</span>, 
+                    <span class="emi">Emi Arriola</span>,
+                    <br><span class="mary">Mary Lynn Tom</span>,
+                    <br><span class="nasheeb">Nasheeb Adhikari</span>,
                     <br><span class="nicholas">Nicholas Lam</span>
                 </h2>
+                
+                <div id="derpScore" style="color: white; text-align: center; margin-bottom: 10px; font-size: 20px;"></div>
+				<div id="potatoScore" style="color: white; text-align: center; font-size: 20px;"></div>
             </div>
+
+			
 
             <!-- Create a canvas -->
             <canvas id="paper"></canvas>
@@ -50,19 +55,14 @@
             
         </div>
         
-        
-            <div id="score" style="color: white; text-align: center;">
-            
-                
-                
-            </div>
-        
         <!-- Link JavaScript files -->
         
         <script>
         
             var derpImg = new Image();
             derpImg.src = "images/derpyAppleShrunk.png";
+            var potatoImg = new Image();
+            potatoImg.src = "images/happyPotato.png";
             var bgImg = new Image();
             bgImg.src = "images/startScreen.png";
             
@@ -82,12 +82,13 @@
             let potatoScore = 0;
            
             function init() {
-                document.getElementById("score").innerHTML = "derpScore " + derpScore;
+                document.getElementById("derpScore").innerHTML = "Derpy Apple Score: " + derpScore;
+                document.getElementById("potatoScore").innerHTML = "Happy Potato Score: " + potatoScore;
                 // Create new player, Derpy Apple
                 derp = new Player(0, canvas.height / 2 | 0, derpImg, "#c11313", 20 , "r");
 
                 // Create new player, Happy Potato
-                potato = new Player(canvas.width, canvas.height / 2 | 0, derpImg, "#e2bf93", 20, "l");
+                potato = new Player(canvas.width, canvas.height / 2 | 0, potatoImg, "#e2bf93", 20, "l");
                 clearInterval(interval);
                 
                 //ctx.fillStyle = "red";
@@ -104,11 +105,11 @@
             bgImg.onload = init;
         </script>
         
-        <!-- Music
+        <!-- Music -->
         <audio autoplay loop>
             <source src="https://marylynntom.github.io/missionbit2/music/Heaven.mp3" type="audio/mpeg">
             <source src="https://marylynntom.github.io/missionbit2/music/Heaven.ogg" type="audio/ogg">
-        </audio> -->
+        </audio>
         
     </div>
         
