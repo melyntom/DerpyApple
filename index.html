@@ -65,6 +65,8 @@
             potatoImg.src = "images/happyPotato.png";
             var bgImg = new Image();
             bgImg.src = "images/startScreen.png";
+            var bgImg2 = new Image();
+            bgImg2.src = "images/startScreen2.png";
             
         </script>
         
@@ -93,7 +95,11 @@
                 
                 //ctx.fillStyle = "red";
                 //ctx.fillRect(0,0,canvas.width, canvas.height);
-                ctx.drawImage(bgImg, -100, 0);
+                if ((Math.random()) <= 0.5) {
+	                ctx.drawImage(bgImg, -100, 0);
+                } else {
+                	ctx.drawImage(bgImg2, -100, -40);
+                }
 
                 setTimeout(function () {
                     interval = setInterval(update, 100);
@@ -102,7 +108,7 @@
             }
             
             
-            bgImg.onload = init;
+            bgImg2.onload = init;
         </script>
         
         <!-- Music -->
