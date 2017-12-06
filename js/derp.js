@@ -1,12 +1,11 @@
 // Object creation
 
 // Function for creating a new player
-var Player = function (x, y, image, color, size, score, dir) {
+var Player = function (x, y, image, color, size, dir) {
     this.body = [{"x": x, "y": y}];
     this.image = image;
     this.color = color;
     this.size = size;
-    this.score = score;
     this.dir = dir;
 };
 
@@ -14,7 +13,8 @@ var Player = function (x, y, image, color, size, score, dir) {
 Player.prototype.draw = function (ctx) {
     ctx.fillStyle = this.color;
     for (let i = 0; i < this.body.length; i++) {
-        ctx.fillRect(this.body[i].x, this.body[i].y, this.size, this.size);        
+        //ctx.fillRect(this.body[i].x, this.body[i].y, this.size, this.size);  
+        ctx.drawImage(this.image, this.body[i].x, this.body[i].y);     
     }
 };
 
@@ -47,7 +47,7 @@ Player.prototype.changeDir = function (dir) {
 };
 
 Player.prototype.isAlive = function (canvas, snake) {
-    console.log(this.collidesWith(snake));
+  //  console.log(this.collidesWith(snake));
   return this.isInBounds(canvas) && 
         !this.collidesWith(snake) && 
         !this.collidesWithSelf(); 

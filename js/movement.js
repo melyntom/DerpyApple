@@ -40,11 +40,11 @@ function update() {
     const potatoIsAlive = potato.isAlive(canvas, derp);
     
     if (derpIsAlive && !potatoIsAlive){
-        console.log("derp wins")
+        derpScore++;
         init();  
     }
     else if (potatoIsAlive && !derpIsAlive){
-        console.log("potato wins")
+        potatoScore++;
         init();
     }else if (!potatoIsAlive && !derpIsAlive)  { // both died at same time
         init();
