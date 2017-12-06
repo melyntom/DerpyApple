@@ -6,11 +6,11 @@ Vewy derpy apple, but beware for it's evil clone. Bewaaareeeeee... -PrincessMono
 ## TODO LIST:
 
 ### Last Day Priorities:
-* Collision
+* ~~Collision~~
 * Make the Player Blocks Images
-* Slides
+* ~~Slides~~
 * Finish Start Screen
-* Player Control Blocking
+* ~~Player Control Blocking~~
 * Score
 
 
@@ -25,25 +25,25 @@ Vewy derpy apple, but beware for it's evil clone. Bewaaareeeeee... -PrincessMono
 
 #### Mary
 * ~~Objects~~
-* Get Files Working Together
+* ~~Get Files Working Together~~
 * Get Images Onscreen
 * Code the Starting Screen
 
 #### Emi
-* Design the Starting Screen
-* Create Images
+* ~~Design the Starting Screen~~
+* ~~Create Images~~
 
 #### Nasheeb
-* Collision Detection
+* ~~Collision Detection~~
 
 #### Nicholas
 * ~~Keyboard Controls~~
 * ~~Figure Out How to Make Our Blocks Turn~~
-* Stop Players from Being Able to Go Back (if going up, cannot go down, etc.)
+* ~~Stop Players from Being Able to Go Back (if going up, cannot go down, etc.)~~
 
 
 
 ### Extras:
 * Score
 
-Important Note: Our canvas is 840px in width and 560px in height.
+~~Important Note: Our canvas is 840px in width and 560px in height.~~
