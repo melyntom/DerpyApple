@@ -47,9 +47,27 @@
             <!-- Create a canvas -->
             <canvas id="paper"></canvas>
             
+            
         </div>
         
+        
+            <div id="score" style="color: white; text-align: center;">
+            
+                
+                
+            </div>
+        
         <!-- Link JavaScript files -->
+        
+        <script>
+        
+            var derpImg = new Image();
+            derpImg.src = "images/derpyAppleShrunk.png";
+            var bgImg = new Image();
+            bgImg.src = "images/startScreen.png";
+            
+        </script>
+        
         <script src="js/start.js"></script>
         <script src="js/derp.js"></script>
         <script src="js/controls.js"></script>
@@ -60,19 +78,30 @@
             var derp;
             var potato;
             let interval;
-            
+            let derpScore = 0;
+            let potatoScore = 0;
+           
             function init() {
+                document.getElementById("score").innerHTML = "derpScore " + derpScore;
                 // Create new player, Derpy Apple
-                derp = new Player(0, canvas.height / 2 | 0, null, "#c11313", 10, 10, "r");
+                derp = new Player(0, canvas.height / 2 | 0, derpImg, "#c11313", 20 , "r");
 
                 // Create new player, Happy Potato
-                potato = new Player(canvas.width, canvas.height / 2 | 0, null, "#e2bf93", 10, 10, "l");
+                potato = new Player(canvas.width, canvas.height / 2 | 0, derpImg, "#e2bf93", 20, "l");
                 clearInterval(interval);
-                interval = setInterval(update, 100);
+                
+                //ctx.fillStyle = "red";
+                //ctx.fillRect(0,0,canvas.width, canvas.height);
+                ctx.drawImage(bgImg, -100, 0);
+
+                setTimeout(function () {
+                    interval = setInterval(update, 100);
+                }, 3000);
 
             }
-
-            init();
+            
+            
+            bgImg.onload = init;
         </script>
         
         <!-- Music
