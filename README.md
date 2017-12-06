@@ -7,11 +7,11 @@ Vewy derpy apple, but beware for it's evil clone. Bewaaareeeeee... -PrincessMono
 
 ### Last Day Priorities:
 * ~~Collision~~
-* Make the Player Blocks Images
+* ~~Make the Player Blocks Images~~
 * ~~Slides~~
-* Finish Start Screen
+* ~~Finish Start Screen~~
 * ~~Player Control Blocking~~
-* Score
+* ~~Score~~
 
 
 ### Set up:
@@ -26,8 +26,8 @@ Vewy derpy apple, but beware for it's evil clone. Bewaaareeeeee... -PrincessMono
 #### Mary
 * ~~Objects~~
 * ~~Get Files Working Together~~
-* Get Images Onscreen
-* Code the Starting Screen
+* ~~Get Images Onscreen~~
+* ~~Code the Starting Screen~~
 
 #### Emi
 * ~~Design the Starting Screen~~
@@ -44,6 +44,6 @@ Vewy derpy apple, but beware for it's evil clone. Bewaaareeeeee... -PrincessMono
 
 
 ### Extras:
-* Score
+* ~~Score~~
 
 ~~Important Note: Our canvas is 840px in width and 560px in height.~~
